@@ -1,7 +1,7 @@
-/*
- *  * File: 0-positive_or_negative.c
- *   * Auth: Brennan D Baraban
- *    */
+/**
+   * File: 0-positive_or_negative.c
+    * Auth: Brennan D Baraban
+     */
 
 #include <stdlib.h>
 #include <time.h>
@@ -28,4 +28,4 @@ int main(void)
 										printf("%d is zero\n", n);
 
 								return (0);
-}i
+}
