@@ -2,10 +2,10 @@
 #define main_h
 
 /*
-   * File: main.h
-    * 
-     *    
-     */
+ * File: main.h
+ * 
+ *    
+ */
 
 int _putchar(char c);
 void print_alphabet(void);
