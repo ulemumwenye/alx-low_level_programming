@@ -1,4 +1,4 @@
-nclude "main.h"
+#lnclude "main.h"
 
 /**
    * print_last_digit - Prints the last digit of a number.
