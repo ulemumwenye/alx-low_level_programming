@@ -16,4 +16,3 @@ _putchar(s[index]);
 
 _putchar('\n');
 }
-
