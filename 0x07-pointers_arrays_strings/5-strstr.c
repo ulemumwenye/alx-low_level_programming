@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _strstr - Locates a substring.
@@ -12,7 +12,7 @@ include "main.h"
 
 char *_strstr(char *haystack, char *needle)
 {
-int index;
+  int index;
 
 if (*needle == 0)
 return (haystack);
