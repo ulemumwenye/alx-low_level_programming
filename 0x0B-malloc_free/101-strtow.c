@@ -99,3 +99,4 @@ strings[w][l] = '\0';
 strings[w] = NULL;
 
 return (strings);
+}
