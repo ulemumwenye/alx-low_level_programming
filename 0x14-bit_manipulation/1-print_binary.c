@@ -10,6 +10,7 @@
  */
 void print_binary(unsigned long int n)
 {
+<<<<<<< HEAD
   unsigned long int printbit = 1ul << 63;
   char c = '0';
 
@@ -28,4 +29,24 @@ void print_binary(unsigned long int n)
       write(1, &c, 1);
       printbit = printbit >> 1;
     }
+=======
+	unsigned long int printbit = 1ul << 63;
+	char c = '0';
+
+	while (!(printbit & n) && printbit != 0)
+		printbit = printbit >> 1;
+
+	if (printbit == 0)
+		write(1, &c, 1);
+
+	while (printbit)
+	{
+		if (printbit & n)
+			c = '1';
+		else
+			c = '0';
+		write(1, &c, 1);
+		printbit = printbit >> 1;
+	}
+>>>>>>> b4f1e60f15bf56a857a8d10f42e06317e78005e9
 }
